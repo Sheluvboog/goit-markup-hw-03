@@ -88,6 +88,10 @@ text-decoration: none;
     line-height: 1.14;
     color: var(--primary-text-color); 
 }
+.element-nav:hover,
+.element-nav:focus{
+    color: var(--accent-text-color);
+}
 .element-nav.current{
         color: var(--accent-text-color);
 }
