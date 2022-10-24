@@ -34,7 +34,7 @@ img{
     display: block;
 }
 .container{
-    width: 1170px;
+    width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -45,8 +45,8 @@ img{
 }
 /* Header */
 .header{
-        padding-top: 32px;
-        padding-bottom: 32px;
+        padding-top: 25px;
+        padding-bottom: 24px;
         border-bottom: 1px solid var(--header-border);
         background-color: var(--primary-color);
 }
@@ -116,18 +116,18 @@ text-decoration: none;
 /*Hero*/
 .hero-section{
     padding-top: 0;
+    padding: 200px;
+    background-color: var(--background-hero);
 }
 .hero-container{
-    background-color: var(--background-hero);
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 237px 200px; 
-
 }
 .primary-title{
     font-weight: 900;
     font-size: 44px;
+    max-width: 690px;
     line-height: 1.36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -153,6 +153,9 @@ text-decoration: none;
     background-color: var(--background-hero-btn);
 }
 /*First section*/
+.section-info{
+    padding-bottom: 0;
+}
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
@@ -218,6 +221,7 @@ text-decoration: none;
 }
 .section-team{
     background-color: var(--background-color-team);
+    padding-top: 0;
 }
 .team-info{
     width: calc((100% - 90px) / 4);
@@ -251,7 +255,8 @@ text-decoration: none;
 }
 .filter-list{
     display: flex;
-    padding-bottom: 34px;
+    margin-bottom: 50px;
+    gap: 8px;
 }
 .portfolio-list{
     display: flex;
@@ -271,6 +276,7 @@ text-decoration: none;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    padding: 6px 22px;
 }
 .button-filter:hover,
 .button-filter:focus{
@@ -280,6 +286,7 @@ text-decoration: none;
 .site{
     padding: 24px 20px;
     border: 1px solid var(--portfolio-border);
+    border-top: none;
 }
 .name-project{
     font-weight: 700;
@@ -296,6 +303,12 @@ text-decoration: none;
     color: var(--color-contact);
 }
 /* Footer */
+.logo-footer{
+    margin-right: 0;
+}
+.footer-item{
+    margin-bottom: 9px;
+}
 .footer{
     padding-top: 60px;
     padding-bottom: 60px;
